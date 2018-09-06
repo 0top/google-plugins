@@ -17,7 +17,7 @@ $(document).ready(function (){
 		// $("body").removeClass("#pulllog-box");
 
 		//delete class
-		$(".box-box-large").remove();
+		$(".box-box-large").hide();
 		$(".box-box-aways").remove();
 		$(".box-box-default").empty();
 		$(".pulllog-box").remove();
