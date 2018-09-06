@@ -14,6 +14,10 @@ clean csdn ads
 根据id删除:    $("#id").remove()   
 根据class删除：$(".class").remove()  
 
+> 由于在document_start之后会执行一些js，导致如果使用start时期注入js会导致整个页面乱掉
+> 所以选择将某段广告的div进行hide操作
+> 相较一开始效果更好
+
 
 ***
 
