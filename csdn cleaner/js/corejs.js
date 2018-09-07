@@ -24,4 +24,11 @@ $(document).ready(function (){
 		
 	}
 
+	if(addr.indexOf("bbs.csdn.net") > 0) {
+
+		$("#ad_pop").remove();
+		$(".pulllog-box").remove();
+		$(".mediav_ad").remove();
+	}
+
 });

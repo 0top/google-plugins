@@ -21,6 +21,11 @@
 			"matches": ["https://*.csdn.net/*"],
 			"js": ["js/jquery.js", "js/corejs.js"],
 			"run_at": "document_start"
+		},
+		{
+			"matches": ["https://*.csdn.net/*"],
+			"js": ["js/jquery.js", "js/core_end.js"],
+			"run_at": "document_end"
 		}
 	],
 	"homepage_url": "https://0top.github.io/"
