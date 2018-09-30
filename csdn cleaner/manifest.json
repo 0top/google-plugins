@@ -26,6 +26,11 @@
 			"matches": ["https://*.csdn.net/*"],
 			"js": ["js/jquery.js", "js/core_end.js"],
 			"run_at": "document_end"
+		},
+		{
+			"matches": ["https://www.regular-expressions.info/*"],
+			"js": ["js/jquery.js", "js/core_regular_expression.js"],
+			"run_at": "document_start"
 		}
 	],
 	"homepage_url": "https://0top.github.io/"
