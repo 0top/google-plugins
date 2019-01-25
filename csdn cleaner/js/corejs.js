@@ -17,6 +17,7 @@ $(document).ready(function (){
 		// $("body").removeClass("#pulllog-box");
 
 		//delete class
+		$(".recommend-right").hide();
 		$(".box-box-large").hide();
 		$(".box-box-aways").remove();
 		$(".box-box-default").empty();
