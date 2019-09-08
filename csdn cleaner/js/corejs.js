@@ -32,4 +32,12 @@ $(document).ready(function (){
 		$(".mediav_ad").remove();
 	}
 
+	if (addr.indexOf("www.dytt8.net") > 0) {
+		$("#cs_ap_8040").remove();                         // 页面刷新广告
+
+		$("#headerright").remove();
+		$(".bd4l").contents().remove();
+		$("#cs_DIV_cscpvrich5041B").remove();
+	}
+
 });

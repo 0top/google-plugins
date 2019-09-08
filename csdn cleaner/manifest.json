@@ -28,6 +28,11 @@
 			"run_at": "document_end"
 		},
 		{
+			"matches": ["<all_urls>"],
+			"js": ["js/jquery.js", "js/corejs.js"],
+			"run_at": "document_end"
+		},
+		{
 			"matches": ["https://www.regular-expressions.info/*"],
 			"js": ["js/jquery.js", "js/core_regular_expression.js"],
 			"run_at": "document_start"
